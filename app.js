@@ -14,9 +14,9 @@ var mysql = require('mysql'),
     config = {
       host: 'localhost',
       user: 'root',
-      password: '',
+      password: 'password',
       port: 3306,
-      database: 'nodejs'
+      database: 'demodb'
     };
 var index = require('./routes/index');
 var users = require('./routes/users');
